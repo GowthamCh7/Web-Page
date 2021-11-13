@@ -1,0 +1,169 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid{
+  padding: 10px 100px 70px;
+}
+
+.dark-background{
+  background-color: #8A3FFC;
+}
+
+.section-heading{
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Concert One', cursive;
+}
+
+.section-tagline{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #A0A0A0;
+  margin-bottom: 50px;
+}
+
+.button{
+  margin: 20px;
+}
+
+.description{
+  color: #A0A0A0;
+  font-size: 1.3rem;
+}
+
+.hidden{
+  display: none;
+}
+
+/* ------------Nav Bar------------- */
+.navbar-brand{
+  font-size: 1.7rem;
+}
+
+.nav-link{
+  padding: 0 15px;
+  font-size: 1.2rem;
+}
+
+/* ------------Section Title------------- */
+.title-headline{
+  margin-top: 50px;
+  padding-left: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-intro{
+  color: #A9A9A9;
+  padding-left: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-image{
+  width: 100%;
+}
+
+.title-img-div{
+  text-align: center;
+}
+/* ------------Section About------------- */
+
+.about-img-div{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.about-text-div{
+  padding: 0 100px 60px 0;
+  text-align: justify;
+}
+
+.about-image{
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-row{
+  text-align: center;
+}
+
+.about-icon{
+  color: #8A3FFC;
+  font-size: 2.8rem;
+  margin: 15px;
+}
+
+
+
+/* ------------Section Projects------------- */
+.carousel-item{
+  height: 450px;
+}
+.carousel-item .img{
+  height: 450px;
+}
+
+
+/* ------------Section Footer------------- */
+#footer{
+  text-align: center;
+}
+
+.footer-text{
+  color: #fff;
+  margin: 15px;
+  font-size: 1.2rem;
+}
+
+.footer-copyright{
+  margin: 15px;
+}
+
+#footer .container-fluid{
+  padding-bottom: 20px;
+}
+
+/* -----------Media Queries------------ */
+
+@media (max-width: 992px) {
+
+.container-fluid{
+  padding: 10px 10px 30px;
+}
+
+body{
+  text-align: center;
+}
+
+html{
+  font-size: 1.4rem;
+}
+
+.nav-item a{
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.navbar-toggler-icon{
+  font-size: 1rem;
+}
+
+.title-headline{
+  margin-top: 5vh;
+}
+
+.about-text-div{
+  padding: 0 5px;
+  text-align: center;
+}
+
+.about-img-div{
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+}
